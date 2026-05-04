@@ -126,27 +126,6 @@ MathQuest/
 
 ---
 
-## Screenshots for the README
-
-Drop these into `docs/screenshots/` so the README renders properly on GitHub. All screenshots should be taken on a landscape device or emulator at roughly 1920x1080:
-
-| Filename | Capture |
-| --- | --- |
-| `01-main-menu.png` | Main Menu with the Math Quest title visible, Start/Continue/View Progress buttons, settings and profile icons in the top-left corner |
-| `02-login.png` | Login screen with the HELLO! paper panel and the Enter Name box (empty) |
-| `03-login-typed.png` | Login screen with a name typed in the Enter Name box and the Start Adventure button highlighted |
-| `04-intro-story.png` | The intro story panel with the parchment background and the player's name visible in purple |
-| `05-level-earth.png` | The Earth level with the Multiplication monster fully visible, hero name pill in top-left, pause icon in top-right |
-| `06-pause-overlay.png` | Pause overlay with the level blurred behind, Music/SFX sliders, and the three buttons (Home, Resume, Restart) |
-| `07-settings-overlay.png` | Settings overlay opened from the Main Menu with both sliders adjusted to non-default values |
-
-To take screenshots from the Android emulator:
-
-* Press the **camera icon** on the emulator's side toolbar, OR
-* Run `adb exec-out screencap -p > docs/screenshots/01-main-menu.png` from a terminal while the screen you want is showing
-
-To take screenshots from a real device while plugged in via USB:
-
 ```bash
 adb exec-out screencap -p > docs/screenshots/01-main-menu.png
 ```
