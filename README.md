@@ -5,7 +5,8 @@ A cozy, hand-drawn educational adventure game for elementary students (Grades 3 
 Travel inside a magic book to the kingdom of **Wumbo** and defeat three monsters by solving math problems. The game covers multiplication, division, and fractions across three story chapters.
 
 
-<img width="912" height="408" alt="Screenshot 2026-05-04 215533" src="https://github.com/user-attachments/assets/d1a1205d-bbad-4ec9-835c-ef2cd1113ca8" />
+<img width="1102" height="513" alt="Screenshot 2026-05-04 222414" src="https://github.com/user-attachments/assets/a4d2867c-1487-48a5-a67a-3bdc11189d9a" />
+
 
 
 ---
