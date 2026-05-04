@@ -126,13 +126,6 @@ MathQuest/
 
 ---
 
-```bash
-adb exec-out screencap -p > docs/screenshots/01-main-menu.png
-```
-
-Once the files are in place, push them with `git add docs/ && git commit -m "Add README screenshots" && git push`.
-
----
 
 ## Roadmap
 
