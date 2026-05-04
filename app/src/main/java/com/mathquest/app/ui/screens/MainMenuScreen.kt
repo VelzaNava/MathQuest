@@ -126,8 +126,8 @@ private fun MainMenuControls(
     BoxWithConstraints(modifier = Modifier.fillMaxSize()) {
         // Icon size based on screen height — roughly 12% of available height
         val iconSize = (maxHeight * 0.13f).coerceIn(54.dp, 86.dp)
-        // Main button width — about 32% of screen width
-        val buttonWidth = (maxWidth * 0.32f).coerceIn(220.dp, 380.dp)
+        // Main button width — narrower so the "Quest" title stays visible behind
+        val buttonWidth = (maxWidth * 0.20f).coerceIn(150.dp, 240.dp)
 
         // TOP-LEFT: Settings + Profile stacked vertically
         Column(
@@ -155,9 +155,9 @@ private fun MainMenuControls(
             modifier = Modifier
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
-                .padding(bottom = 14.dp),
+                .padding(bottom = 8.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(6.dp)
+            verticalArrangement = Arrangement.spacedBy(2.dp)
         ) {
             // Start Adventure
             Image(

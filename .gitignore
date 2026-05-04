@@ -67,3 +67,8 @@ signing.properties
 # GitHub workspace artifacts
 # =================================================================
 .github/java-upgrade/
+
+# =================================================================
+# Source asset folder (originals — processed copies live in app/src/main/res/drawable)
+# =================================================================
+APPDEV ASSETS/
