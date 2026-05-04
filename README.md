@@ -100,29 +100,8 @@ Saved progress (your name, current level, completed chapters, and volume setting
 
 ## Project Structure
 
-```
-MathQuest/
-├── app/
-│   ├── build.gradle.kts
-│   └── src/main/
-│       ├── AndroidManifest.xml
-│       ├── java/com/mathquest/app/
-│       │   ├── MainActivity.kt
-│       │   ├── GameViewModel.kt
-│       │   ├── SaveManager.kt
-│       │   ├── data/GameData.kt
-│       │   ├── navigation/AppNavigation.kt
-│       │   ├── ui/
-│       │   │   ├── theme/   (Color, Type, Theme)
-│       │   │   ├── components/
-│       │   │   └── screens/ (MainMenu, Login, IntroStory, LevelEarth, etc.)
-│       └── res/
-│           ├── drawable/ (PNG assets, vector icons)
-│           └── values/   (strings, themes, font certs)
-├── build.gradle.kts
-├── settings.gradle.kts
-└── gradle/libs.versions.toml
-```
+<img width="364" height="1186" alt="Screenshot 2026-05-04 220321" src="https://github.com/user-attachments/assets/8cfd1d42-4350-4034-9955-b467f8e0f9b5" />
+
 
 ---
 
@@ -140,7 +119,7 @@ MathQuest/
 
 ## Credits
 
-* Concept, design, art direction, and development: **Velza Nava**
+* Concept, design, art direction, and development: **Ryza, Mae Fabay, Tyron go, Imee Aleta**  
 * Hand-drawn assets: original artwork created for this project
 * Fonts: Baloo 2 and Nunito by Google Fonts
 * Built with Kotlin and Jetpack Compose
